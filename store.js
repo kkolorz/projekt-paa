@@ -24,10 +24,7 @@ const createTask = async (title) => (
     }
 
     service.insertEntity(table, task, (error, result, response) => {
-module.exports = {
-  init,
-  createTask
-}      !error ? resolve() : reject()
+	  !error ? resolve() : reject()
     })
   })
 )
