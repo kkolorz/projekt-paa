@@ -25,10 +25,6 @@ const createTask = async (title) => (
   })
 )
 
-module.exports = {
-  init,
-createTask
-}
 
 const listTasks = async () => (
   new Promise((resolve, reject) => {
